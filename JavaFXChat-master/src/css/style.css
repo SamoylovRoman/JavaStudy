@@ -1,0 +1,27 @@
+.root {
+    -fx-font-size: 12px;
+    /*-fx-background-color: blanchedalmond;*/
+    /*-fx-background-image: url("https://www.google.com/images/srpr/logo3w.png");*/
+    /*-fx-background-image: url("/image/2.png");*/
+
+}
+
+.button {
+    -fx-background-color: gray;
+}
+
+.button:hover, #addbtn:hover {
+    -fx-background-color: #c2ff60;
+}
+
+#addbtn {
+    -fx-background-color: orange;
+}
+
+.text-area {
+    -fx-background-color: deeppink;
+    -fx-text-fill: deepskyblue;
+    -fx-highlight-text-fill: #c2ff60;
+    -fx-highlight-fill: deeppink;
+    -fx-control-inner-background: yellow;
+}
